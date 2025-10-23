@@ -1,0 +1,103 @@
+//  Copyright 2024, University of Freiburg,
+//  Chair of Algorithms and Data Structures.
+//  Author: Johannes Kalmbach <kalmbach@cs.uni-freiburg.de>
+
+#ifndef QLEVER_SRC_INDEX_LOCALVOCABENTRY_H
+#define QLEVER_SRC_INDEX_LOCALVOCABENTRY_H
+
+#include <atomic>
+
+#include "backports/algorithm.h"
+#include "backports/keywords.h"
+#include "backports/three_way_comparison.h"
+#include "global/TypedIndex.h"
+#include "global/VocabIndex.h"
+#include "parser/LiteralOrIri.h"
+#include "util/CopyableSynchronization.h"
+
+// This is the type we use to store literals and IRIs in the `LocalVocab`.
+// It consists of a `LiteralOrIri` and a cache to store the position, where
+// the entry would be in the global vocabulary of the Index. This position is
+// used for efficient comparisons between entries in the local and global
+// vocabulary because we only have to look up the position once per
+// `LocalVocabEntry`, and all subsequent comparisons are cheap.
+class alignas(16) LocalVocabEntry
+    : public ad_utility::triple_component::LiteralOrIri {
+ public:
+  using Base = ad_utility::triple_component::LiteralOrIri;
+
+  // Note: The values here actually are `Id`s, but we cannot store the `Id` type
+  // directly because of cyclic dependencies.
+  static constexpr std::string_view proxyTag = "LveIdProxy";
+  using IdProxy = ad_utility::TypedIndex<uint64_t, proxyTag>;
+
+ private:
+  // The cache for the position in the vocabulary. As usual, the `lowerBound` is
+  // inclusive, the `upperBound` is not, so if `lowerBound == upperBound`, then
+  // the entry is not part of the globalVocabulary, and `lowerBound` points to
+  // the first *larger* word in the vocabulary. Note: we store the cache as
+  // three separate atomics to avoid mutexes. The downside is, that in parallel
+  // code multiple threads might look up the position concurrently, which wastes
+  // a bit of resources. However, we don't consider this case to be likely.
+  mutable ad_utility::CopyableAtomic<IdProxy> lowerBoundInVocab_;
+  mutable ad_utility::CopyableAtomic<IdProxy> upperBoundInVocab_;
+  mutable ad_utility::CopyableAtomic<bool> positionInVocabKnown_ = false;
+
+ public:
+  // Inherit the constructors from `LiteralOrIri`
+  using Base::Base;
+
+  // Deliberately allow implicit conversion from `LiteralOrIri`.
+  QL_EXPLICIT(false) LocalVocabEntry(const Base& base) : Base{base} {}
+  QL_EXPLICIT(false)
+  LocalVocabEntry(Base&& base) noexcept : Base{std::move(base)} {}
+
+  // Slice to base class `LiteralOrIri`.
+  const ad_utility::triple_component::LiteralOrIri& asLiteralOrIri() const {
+    return *this;
+  }
+
+  // Return the position in the vocabulary. If it is not already cached, then
+  // the call to `positionInVocab()` first computes the position and then
+  // caches it.
+  // Note: We use `lowerBound` and `upperBound` because depending on the Local
+  // settings there might be a range of words that are considered equal for the
+  // purposes of comparing and sorting them.
+  struct PositionInVocab {
+    IdProxy lowerBound_;
+    IdProxy upperBound_;
+  };
+  PositionInVocab positionInVocab() const {
+    // Immediately return if we have previously computed and cached the
+    // position.
+    if (positionInVocabKnown_.load(std::memory_order_acquire)) {
+      return {lowerBoundInVocab_.load(std::memory_order_relaxed),
+              upperBoundInVocab_.load(std::memory_order_relaxed)};
+    }
+    return positionInVocabExpensiveCase();
+  }
+
+  // It suffices to hash the base class `LiteralOrIri` as the position in the
+  // vocab is redundant for those purposes.
+  template <typename H, typename V>
+  friend auto AbslHashValue(H h, const V& entry)
+      -> CPP_ret(H)(requires ranges::same_as<V, LocalVocabEntry>) {
+    return H::combine(std::move(h), static_cast<const Base&>(entry));
+  }
+
+  // Comparison between two entries could in theory also be sped up using the
+  // cached `position` if it has previously been computed for both of the
+  // entries, but it is currently questionable whether this gains much
+  // performance.
+  auto compareThreeWay(const LocalVocabEntry& rhs) const {
+    return ql::compareThreeWay(static_cast<const Base&>(*this),
+                               static_cast<const Base&>(rhs));
+  }
+  QL_DEFINE_CUSTOM_THREEWAY_OPERATOR_LOCAL(LocalVocabEntry)
+
+ private:
+  // The expensive case of looking up the position in vocab.
+  PositionInVocab positionInVocabExpensiveCase() const;
+};
+
+#endif  // QLEVER_SRC_INDEX_LOCALVOCABENTRY_H
