@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GeneratorsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GeneratorsTest[1]_tests.cmake")
+else()
+  add_test(GeneratorsTest_NOT_BUILT GeneratorsTest_NOT_BUILT)
+endif()

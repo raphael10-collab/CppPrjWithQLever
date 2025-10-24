@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SparqlExpressionGeneratorsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SparqlExpressionGeneratorsTest[1]_tests.cmake")
+else()
+  add_test(SparqlExpressionGeneratorsTest_NOT_BUILT SparqlExpressionGeneratorsTest_NOT_BUILT)
+endif()

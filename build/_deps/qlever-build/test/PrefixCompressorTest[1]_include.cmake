@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/PrefixCompressorTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/PrefixCompressorTest[1]_tests.cmake")
+else()
+  add_test(PrefixCompressorTest_NOT_BUILT PrefixCompressorTest_NOT_BUILT)
+endif()

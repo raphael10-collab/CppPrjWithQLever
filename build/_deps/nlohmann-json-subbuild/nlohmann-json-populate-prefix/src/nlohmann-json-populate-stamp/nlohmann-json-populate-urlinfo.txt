@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/raphy/CppPrjWithQLever/build/_deps/nlohmann-json-subbuild/nlohmann-json-populate-prefix/src/nlohmann-json-populate-stamp/download-nlohmann-json-populate.cmake;COMMAND;/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/raphy/CppPrjWithQLever/build/_deps/nlohmann-json-subbuild/nlohmann-json-populate-prefix/src/nlohmann-json-populate-stamp/verify-nlohmann-json-populate.cmake;COMMAND;/usr/local/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/raphy/CppPrjWithQLever/build/_deps/nlohmann-json-subbuild/nlohmann-json-populate-prefix/src/nlohmann-json-populate-stamp/extract-nlohmann-json-populate.cmake
+source_dir=/home/raphy/CppPrjWithQLever/build/_deps/nlohmann-json-src
+work_dir=/home/raphy/CppPrjWithQLever/build/_deps
+url(s)=https://github.com/nlohmann/json/releases/download/v3.11.3/json.tar.xz
+hash=SHA3_224=b9237e8e8242e915de5be631aa944369c38a377c5e79aa505ba741a9
+      no_extract=
+

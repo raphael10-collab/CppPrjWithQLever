@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/raphy/CppPrjWithQLever/build/_deps/qlever-src/test/util/BenchmarkMeasurementContainerHelpers.cpp" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/BenchmarkMeasurementContainerHelpers.cpp.o" "gcc" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/BenchmarkMeasurementContainerHelpers.cpp.o.d"
+  "/home/raphy/CppPrjWithQLever/build/_deps/qlever-src/test/util/IdTableHelpers.cpp" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/IdTableHelpers.cpp.o" "gcc" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/IdTableHelpers.cpp.o.d"
+  "/home/raphy/CppPrjWithQLever/build/_deps/qlever-src/test/util/IndexTestHelpers.cpp" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/IndexTestHelpers.cpp.o" "gcc" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/IndexTestHelpers.cpp.o.d"
+  "/home/raphy/CppPrjWithQLever/build/_deps/qlever-src/test/util/RandomTestHelpers.cpp" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/RandomTestHelpers.cpp.o" "gcc" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/RandomTestHelpers.cpp.o.d"
+  "/home/raphy/CppPrjWithQLever/build/_deps/qlever-src/test/util/ValidatorHelpers.cpp" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/ValidatorHelpers.cpp.o" "gcc" "_deps/qlever-build/test/util/CMakeFiles/testUtil.dir/ValidatorHelpers.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

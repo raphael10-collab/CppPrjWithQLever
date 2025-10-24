@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JThreadTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JThreadTest[1]_tests.cmake")
+else()
+  add_test(JThreadTest_NOT_BUILT JThreadTest_NOT_BUILT)
+endif()

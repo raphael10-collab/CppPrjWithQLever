@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryHubTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryHubTest[1]_tests.cmake")
+else()
+  add_test(QueryHubTest_NOT_BUILT QueryHubTest_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConcurrentCacheTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConcurrentCacheTest[1]_tests.cmake")
+else()
+  add_test(ConcurrentCacheTest_NOT_BUILT ConcurrentCacheTest_NOT_BUILT)
+endif()

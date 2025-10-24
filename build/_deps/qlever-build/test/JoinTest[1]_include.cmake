@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JoinTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JoinTest[1]_tests.cmake")
+else()
+  add_test(JoinTest_NOT_BUILT JoinTest_NOT_BUILT)
+endif()

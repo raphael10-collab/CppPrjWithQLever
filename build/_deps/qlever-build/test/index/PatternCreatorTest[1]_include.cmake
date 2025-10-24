@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/PatternCreatorTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/PatternCreatorTest[1]_tests.cmake")
+else()
+  add_test(PatternCreatorTest_NOT_BUILT PatternCreatorTest_NOT_BUILT)
+endif()

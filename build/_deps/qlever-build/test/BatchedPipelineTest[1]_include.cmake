@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/BatchedPipelineTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/BatchedPipelineTest[1]_tests.cmake")
+else()
+  add_test(BatchedPipelineTest_NOT_BUILT BatchedPipelineTest_NOT_BUILT)
+endif()

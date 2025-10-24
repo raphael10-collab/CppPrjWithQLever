@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JsonCustomConverterForThirdPartyTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JsonCustomConverterForThirdPartyTest[1]_tests.cmake")
+else()
+  add_test(JsonCustomConverterForThirdPartyTest_NOT_BUILT JsonCustomConverterForThirdPartyTest_NOT_BUILT)
+endif()

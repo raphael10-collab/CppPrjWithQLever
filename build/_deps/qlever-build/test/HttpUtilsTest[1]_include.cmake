@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/HttpUtilsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/HttpUtilsTest[1]_tests.cmake")
+else()
+  add_test(HttpUtilsTest_NOT_BUILT HttpUtilsTest_NOT_BUILT)
+endif()

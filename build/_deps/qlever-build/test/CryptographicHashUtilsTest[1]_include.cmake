@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CryptographicHashUtilsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CryptographicHashUtilsTest[1]_tests.cmake")
+else()
+  add_test(CryptographicHashUtilsTest_NOT_BUILT CryptographicHashUtilsTest_NOT_BUILT)
+endif()

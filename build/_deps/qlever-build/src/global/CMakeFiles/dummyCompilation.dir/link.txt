@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libdummyCompilation.a CMakeFiles/dummyCompilation.dir/DummyCompilation.cpp.o
+/usr/bin/ranlib ../../../../lib/libdummyCompilation.a

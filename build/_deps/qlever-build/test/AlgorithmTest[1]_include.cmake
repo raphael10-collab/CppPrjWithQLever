@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AlgorithmTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AlgorithmTest[1]_tests.cmake")
+else()
+  add_test(AlgorithmTest_NOT_BUILT AlgorithmTest_NOT_BUILT)
+endif()

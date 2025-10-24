@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/raphy/CppPrjWithQLever/build/_deps/abseil-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

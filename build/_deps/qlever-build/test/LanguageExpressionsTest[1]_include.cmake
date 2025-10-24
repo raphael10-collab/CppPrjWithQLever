@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LanguageExpressionsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LanguageExpressionsTest[1]_tests.cmake")
+else()
+  add_test(LanguageExpressionsTest_NOT_BUILT LanguageExpressionsTest_NOT_BUILT)
+endif()

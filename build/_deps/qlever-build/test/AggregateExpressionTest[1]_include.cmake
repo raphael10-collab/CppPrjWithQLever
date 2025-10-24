@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AggregateExpressionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AggregateExpressionTest[1]_tests.cmake")
+else()
+  add_test(AggregateExpressionTest_NOT_BUILT AggregateExpressionTest_NOT_BUILT)
+endif()

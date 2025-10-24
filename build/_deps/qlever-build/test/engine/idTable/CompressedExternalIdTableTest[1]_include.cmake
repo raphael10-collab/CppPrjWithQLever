@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/idTable/CompressedExternalIdTableTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/idTable/CompressedExternalIdTableTest[1]_tests.cmake")
+else()
+  add_test(CompressedExternalIdTableTest_NOT_BUILT CompressedExternalIdTableTest_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ResetWhenMovedTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ResetWhenMovedTest[1]_tests.cmake")
+else()
+  add_test(ResetWhenMovedTest_NOT_BUILT ResetWhenMovedTest_NOT_BUILT)
+endif()

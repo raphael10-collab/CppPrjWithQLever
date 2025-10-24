@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SetOfIntervalsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SetOfIntervalsTest[1]_tests.cmake")
+else()
+  add_test(SetOfIntervalsTest_NOT_BUILT SetOfIntervalsTest_NOT_BUILT)
+endif()

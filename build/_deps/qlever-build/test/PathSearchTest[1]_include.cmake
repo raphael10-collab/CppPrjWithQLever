@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/PathSearchTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/PathSearchTest[1]_tests.cmake")
+else()
+  add_test(PathSearchTest_NOT_BUILT PathSearchTest_NOT_BUILT)
+endif()

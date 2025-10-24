@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CallFixedSizeTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CallFixedSizeTest[1]_tests.cmake")
+else()
+  add_test(CallFixedSizeTest_NOT_BUILT CallFixedSizeTest_NOT_BUILT)
+endif()

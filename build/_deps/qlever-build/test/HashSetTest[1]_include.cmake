@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/HashSetTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/HashSetTest[1]_tests.cmake")
+else()
+  add_test(HashSetTest_NOT_BUILT HashSetTest_NOT_BUILT)
+endif()

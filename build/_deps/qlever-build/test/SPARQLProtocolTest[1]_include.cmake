@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SPARQLProtocolTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/SPARQLProtocolTest[1]_tests.cmake")
+else()
+  add_test(SPARQLProtocolTest_NOT_BUILT SPARQLProtocolTest_NOT_BUILT)
+endif()

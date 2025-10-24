@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConstexprUtilsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConstexprUtilsTest[1]_tests.cmake")
+else()
+  add_test(ConstexprUtilsTest_NOT_BUILT ConstexprUtilsTest_NOT_BUILT)
+endif()

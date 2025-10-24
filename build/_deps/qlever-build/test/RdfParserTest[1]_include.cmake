@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RdfParserTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RdfParserTest[1]_tests.cmake")
+else()
+  add_test(RdfParserTest_NOT_BUILT RdfParserTest_NOT_BUILT)
+endif()

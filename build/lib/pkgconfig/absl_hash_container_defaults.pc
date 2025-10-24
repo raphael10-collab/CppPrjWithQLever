@@ -1,0 +1,12 @@
+prefix=/home/raphy/CppPrjWithQLever/build
+exec_prefix=${prefix}
+libdir=/home/raphy/CppPrjWithQLever/build/lib
+includedir=/home/raphy/CppPrjWithQLever/build/include
+
+Name: absl_hash_container_defaults
+Description: Abseil hash_container_defaults library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_hash_function_defaults = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

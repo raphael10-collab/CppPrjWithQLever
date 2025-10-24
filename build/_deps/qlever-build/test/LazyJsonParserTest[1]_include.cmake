@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LazyJsonParserTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LazyJsonParserTest[1]_tests.cmake")
+else()
+  add_test(LazyJsonParserTest_NOT_BUILT LazyJsonParserTest_NOT_BUILT)
+endif()

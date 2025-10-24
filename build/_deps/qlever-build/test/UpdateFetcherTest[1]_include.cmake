@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UpdateFetcherTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UpdateFetcherTest[1]_tests.cmake")
+else()
+  add_test(UpdateFetcherTest_NOT_BUILT UpdateFetcherTest_NOT_BUILT)
+endif()

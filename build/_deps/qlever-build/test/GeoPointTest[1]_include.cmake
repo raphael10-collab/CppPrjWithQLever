@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GeoPointTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GeoPointTest[1]_tests.cmake")
+else()
+  add_test(GeoPointTest_NOT_BUILT GeoPointTest_NOT_BUILT)
+endif()

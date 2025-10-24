@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ZstdCompressionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ZstdCompressionTest[1]_tests.cmake")
+else()
+  add_test(ZstdCompressionTest_NOT_BUILT ZstdCompressionTest_NOT_BUILT)
+endif()

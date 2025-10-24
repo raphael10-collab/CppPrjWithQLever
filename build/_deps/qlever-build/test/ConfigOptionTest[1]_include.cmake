@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigOptionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigOptionTest[1]_tests.cmake")
+else()
+  add_test(ConfigOptionTest_NOT_BUILT ConfigOptionTest_NOT_BUILT)
+endif()

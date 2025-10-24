@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/backports/ConceptsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/backports/ConceptsTest[1]_tests.cmake")
+else()
+  add_test(ConceptsTest_NOT_BUILT ConceptsTest_NOT_BUILT)
+endif()

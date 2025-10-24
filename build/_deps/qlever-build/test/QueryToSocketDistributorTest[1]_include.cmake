@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryToSocketDistributorTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryToSocketDistributorTest[1]_tests.cmake")
+else()
+  add_test(QueryToSocketDistributorTest_NOT_BUILT QueryToSocketDistributorTest_NOT_BUILT)
+endif()

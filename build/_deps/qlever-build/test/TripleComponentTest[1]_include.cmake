@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TripleComponentTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TripleComponentTest[1]_tests.cmake")
+else()
+  add_test(TripleComponentTest_NOT_BUILT TripleComponentTest_NOT_BUILT)
+endif()

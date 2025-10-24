@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UnionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UnionTest[1]_tests.cmake")
+else()
+  add_test(UnionTest_NOT_BUILT UnionTest_NOT_BUILT)
+endif()

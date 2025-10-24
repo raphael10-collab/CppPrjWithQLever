@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RuntimeInformationTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RuntimeInformationTest[1]_tests.cmake")
+else()
+  add_test(RuntimeInformationTest_NOT_BUILT RuntimeInformationTest_NOT_BUILT)
+endif()

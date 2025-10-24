@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CompressedRelationsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CompressedRelationsTest[1]_tests.cmake")
+else()
+  add_test(CompressedRelationsTest_NOT_BUILT CompressedRelationsTest_NOT_BUILT)
+endif()

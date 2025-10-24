@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TransparentFunctorsTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TransparentFunctorsTest[1]_tests.cmake")
+else()
+  add_test(TransparentFunctorsTest_NOT_BUILT TransparentFunctorsTest_NOT_BUILT)
+endif()

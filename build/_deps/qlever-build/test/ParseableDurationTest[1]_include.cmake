@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ParseableDurationTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ParseableDurationTest[1]_tests.cmake")
+else()
+  add_test(ParseableDurationTest_NOT_BUILT ParseableDurationTest_NOT_BUILT)
+endif()

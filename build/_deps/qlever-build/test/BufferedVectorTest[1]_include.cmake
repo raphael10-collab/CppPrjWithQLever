@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/BufferedVectorTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/BufferedVectorTest[1]_tests.cmake")
+else()
+  add_test(BufferedVectorTest_NOT_BUILT BufferedVectorTest_NOT_BUILT)
+endif()

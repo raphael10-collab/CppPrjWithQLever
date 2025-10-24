@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/EngineTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/EngineTest[1]_tests.cmake")
+else()
+  add_test(EngineTest_NOT_BUILT EngineTest_NOT_BUILT)
+endif()

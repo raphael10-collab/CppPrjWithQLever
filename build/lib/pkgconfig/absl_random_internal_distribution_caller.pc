@@ -1,0 +1,12 @@
+prefix=/home/raphy/CppPrjWithQLever/build
+exec_prefix=${prefix}
+libdir=/home/raphy/CppPrjWithQLever/build/lib
+includedir=/home/raphy/CppPrjWithQLever/build/include
+
+Name: absl_random_internal_distribution_caller
+Description: Abseil random_internal_distribution_caller library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_utility = head, absl_fast_type_id = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

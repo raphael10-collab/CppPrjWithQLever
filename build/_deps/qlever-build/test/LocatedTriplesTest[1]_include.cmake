@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LocatedTriplesTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LocatedTriplesTest[1]_tests.cmake")
+else()
+  add_test(LocatedTriplesTest_NOT_BUILT LocatedTriplesTest_NOT_BUILT)
+endif()

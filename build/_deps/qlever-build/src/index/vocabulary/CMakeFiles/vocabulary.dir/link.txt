@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../lib/libvocabulary.a CMakeFiles/vocabulary.dir/VocabularyInMemory.cpp.o CMakeFiles/vocabulary.dir/VocabularyInMemoryBinSearch.cpp.o CMakeFiles/vocabulary.dir/VocabularyInternalExternal.cpp.o CMakeFiles/vocabulary.dir/VocabularyOnDisk.cpp.o
+/usr/bin/ranlib ../../../../../lib/libvocabulary.a

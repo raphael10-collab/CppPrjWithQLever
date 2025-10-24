@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/MemorySizeTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/MemorySizeTest[1]_tests.cmake")
+else()
+  add_test(MemorySizeTest_NOT_BUILT MemorySizeTest_NOT_BUILT)
+endif()

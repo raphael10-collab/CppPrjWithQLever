@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ParametersTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ParametersTest[1]_tests.cmake")
+else()
+  add_test(ParametersTest_NOT_BUILT ParametersTest_NOT_BUILT)
+endif()

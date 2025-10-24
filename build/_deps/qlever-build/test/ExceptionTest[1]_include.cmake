@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ExceptionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ExceptionTest[1]_tests.cmake")
+else()
+  add_test(ExceptionTest_NOT_BUILT ExceptionTest_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RandomExpressionTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RandomExpressionTest[1]_tests.cmake")
+else()
+  add_test(RandomExpressionTest_NOT_BUILT RandomExpressionTest_NOT_BUILT)
+endif()

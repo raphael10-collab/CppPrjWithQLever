@@ -1,0 +1,12 @@
+prefix=/home/raphy/CppPrjWithQLever/build
+exec_prefix=${prefix}
+libdir=/home/raphy/CppPrjWithQLever/build/lib
+includedir=/home/raphy/CppPrjWithQLever/build/include
+
+Name: absl_config
+Description: Abseil config library
+URL: https://abseil.io/
+Version: head
+Requires:
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

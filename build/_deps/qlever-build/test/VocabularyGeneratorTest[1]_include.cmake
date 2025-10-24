@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/VocabularyGeneratorTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/VocabularyGeneratorTest[1]_tests.cmake")
+else()
+  add_test(VocabularyGeneratorTest_NOT_BUILT VocabularyGeneratorTest_NOT_BUILT)
+endif()

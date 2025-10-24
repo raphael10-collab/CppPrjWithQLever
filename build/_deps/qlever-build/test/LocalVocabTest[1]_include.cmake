@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LocalVocabTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LocalVocabTest[1]_tests.cmake")
+else()
+  add_test(LocalVocabTest_NOT_BUILT LocalVocabTest_NOT_BUILT)
+endif()

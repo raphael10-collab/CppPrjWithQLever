@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libpb_util.a CMakeFiles/pb_util.dir/3rdparty/MurmurHash3.cpp.o CMakeFiles/pb_util.dir/geo/output/GeoJsonOutput.cpp.o CMakeFiles/pb_util.dir/graph/BiDijkstra.cpp.o CMakeFiles/pb_util.dir/graph/Dijkstra.cpp.o CMakeFiles/pb_util.dir/graph/EDijkstra.cpp.o CMakeFiles/pb_util.dir/http/Server.cpp.o CMakeFiles/pb_util.dir/json/Writer.cpp.o CMakeFiles/pb_util.dir/xml/XmlWriter.cpp.o
+/usr/bin/ranlib ../../../../lib/libpb_util.a

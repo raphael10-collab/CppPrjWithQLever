@@ -1,0 +1,5 @@
+if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/LiteralOrIriTest[1]_tests.cmake")
+  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/LiteralOrIriTest[1]_tests.cmake")
+else()
+  add_test(LiteralOrIriTest_NOT_BUILT LiteralOrIriTest_NOT_BUILT)
+endif()
