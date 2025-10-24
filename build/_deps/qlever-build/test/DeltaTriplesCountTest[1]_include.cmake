@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/DeltaTriplesCountTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/DeltaTriplesCountTest[1]_tests.cmake")
-else()
-  add_test(DeltaTriplesCountTest_NOT_BUILT DeltaTriplesCountTest_NOT_BUILT)
-endif()

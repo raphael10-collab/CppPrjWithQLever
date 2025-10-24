@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ValueGetterTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ValueGetterTest[1]_tests.cmake")
-else()
-  add_test(ValueGetterTest_NOT_BUILT ValueGetterTest_NOT_BUILT)
-endif()

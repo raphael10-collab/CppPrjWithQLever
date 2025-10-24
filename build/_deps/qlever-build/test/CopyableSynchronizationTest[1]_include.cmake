@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CopyableSynchronizationTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CopyableSynchronizationTest[1]_tests.cmake")
-else()
-  add_test(CopyableSynchronizationTest_NOT_BUILT CopyableSynchronizationTest_NOT_BUILT)
-endif()

@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/FindUndefRangesTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/FindUndefRangesTest[1]_tests.cmake")
-else()
-  add_test(FindUndefRangesTest_NOT_BUILT FindUndefRangesTest_NOT_BUILT)
-endif()

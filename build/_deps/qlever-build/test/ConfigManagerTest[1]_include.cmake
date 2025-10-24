@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigManagerTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigManagerTest[1]_tests.cmake")
-else()
-  add_test(ConfigManagerTest_NOT_BUILT ConfigManagerTest_NOT_BUILT)
-endif()

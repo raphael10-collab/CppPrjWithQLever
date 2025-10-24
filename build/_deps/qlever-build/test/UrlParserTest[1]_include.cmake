@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UrlParserTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/UrlParserTest[1]_tests.cmake")
-else()
-  add_test(UrlParserTest_NOT_BUILT UrlParserTest_NOT_BUILT)
-endif()

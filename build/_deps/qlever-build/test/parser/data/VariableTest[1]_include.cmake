@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/data/VariableTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/data/VariableTest[1]_tests.cmake")
-else()
-  add_test(VariableTest_NOT_BUILT VariableTest_NOT_BUILT)
-endif()

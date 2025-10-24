@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IndexTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IndexTest[1]_tests.cmake")
-else()
-  add_test(IndexTest_NOT_BUILT IndexTest_NOT_BUILT)
-endif()

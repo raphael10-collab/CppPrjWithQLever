@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/TextIndexScanForEntityTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/TextIndexScanForEntityTest[1]_tests.cmake")
-else()
-  add_test(TextIndexScanForEntityTest_NOT_BUILT TextIndexScanForEntityTest_NOT_BUILT)
-endif()

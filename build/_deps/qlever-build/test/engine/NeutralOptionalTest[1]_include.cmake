@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/NeutralOptionalTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/engine/NeutralOptionalTest[1]_tests.cmake")
-else()
-  add_test(NeutralOptionalTest_NOT_BUILT NeutralOptionalTest_NOT_BUILT)
-endif()

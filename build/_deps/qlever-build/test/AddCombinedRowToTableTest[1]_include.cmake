@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AddCombinedRowToTableTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AddCombinedRowToTableTest[1]_tests.cmake")
-else()
-  add_test(AddCombinedRowToTableTest_NOT_BUILT AddCombinedRowToTableTest_NOT_BUILT)
-endif()

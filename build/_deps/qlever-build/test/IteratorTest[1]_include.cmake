@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IteratorTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IteratorTest[1]_tests.cmake")
-else()
-  add_test(IteratorTest_NOT_BUILT IteratorTest_NOT_BUILT)
-endif()

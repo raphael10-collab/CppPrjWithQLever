@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/VocabularyTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/VocabularyTest[1]_tests.cmake")
-else()
-  add_test(VocabularyTest_NOT_BUILT VocabularyTest_NOT_BUILT)
-endif()

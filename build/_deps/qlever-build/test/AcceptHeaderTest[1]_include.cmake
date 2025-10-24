@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AcceptHeaderTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AcceptHeaderTest[1]_tests.cmake")
-else()
-  add_test(AcceptHeaderTest_NOT_BUILT AcceptHeaderTest_NOT_BUILT)
-endif()

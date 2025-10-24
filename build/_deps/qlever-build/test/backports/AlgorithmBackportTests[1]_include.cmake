@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/backports/AlgorithmBackportTests[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/backports/AlgorithmBackportTests[1]_tests.cmake")
-else()
-  add_test(AlgorithmBackportTests_NOT_BUILT AlgorithmBackportTests_NOT_BUILT)
-endif()

@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IdTableTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/IdTableTest[1]_tests.cmake")
-else()
-  add_test(IdTableTest_NOT_BUILT IdTableTest_NOT_BUILT)
-endif()

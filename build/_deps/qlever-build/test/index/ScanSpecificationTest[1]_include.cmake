@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/ScanSpecificationTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/ScanSpecificationTest[1]_tests.cmake")
-else()
-  add_test(ScanSpecificationTest_NOT_BUILT ScanSpecificationTest_NOT_BUILT)
-endif()

@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JsonUtilTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JsonUtilTest[1]_tests.cmake")
-else()
-  add_test(JsonUtilTest_NOT_BUILT JsonUtilTest_NOT_BUILT)
-endif()

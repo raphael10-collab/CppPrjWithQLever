@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/BlankNodeExpressionTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/BlankNodeExpressionTest[1]_tests.cmake")
-else()
-  add_test(BlankNodeExpressionTest_NOT_BUILT BlankNodeExpressionTest_NOT_BUILT)
-endif()

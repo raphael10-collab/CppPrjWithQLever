@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ServerTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ServerTest[1]_tests.cmake")
-else()
-  add_test(ServerTest_NOT_BUILT ServerTest_NOT_BUILT)
-endif()

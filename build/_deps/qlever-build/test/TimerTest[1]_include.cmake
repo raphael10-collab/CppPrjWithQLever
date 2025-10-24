@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TimerTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/TimerTest[1]_tests.cmake")
-else()
-  add_test(TimerTest_NOT_BUILT TimerTest_NOT_BUILT)
-endif()

@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/raphy/CppPrjWithQLever/build/_deps/re2-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

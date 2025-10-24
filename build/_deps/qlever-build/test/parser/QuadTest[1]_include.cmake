@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/QuadTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/QuadTest[1]_tests.cmake")
-else()
-  add_test(QuadTest_NOT_BUILT QuadTest_NOT_BUILT)
-endif()

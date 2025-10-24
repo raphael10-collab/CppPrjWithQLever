@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryPlannerTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/QueryPlannerTest[1]_tests.cmake")
-else()
-  add_test(QueryPlannerTest_NOT_BUILT QueryPlannerTest_NOT_BUILT)
-endif()

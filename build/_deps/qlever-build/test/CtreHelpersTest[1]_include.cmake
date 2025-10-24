@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CtreHelpersTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CtreHelpersTest[1]_tests.cmake")
-else()
-  add_test(CtreHelpersTest_NOT_BUILT CtreHelpersTest_NOT_BUILT)
-endif()

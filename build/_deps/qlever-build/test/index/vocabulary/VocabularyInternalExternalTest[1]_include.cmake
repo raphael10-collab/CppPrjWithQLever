@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/vocabulary/VocabularyInternalExternalTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/index/vocabulary/VocabularyInternalExternalTest[1]_tests.cmake")
-else()
-  add_test(VocabularyInternalExternalTest_NOT_BUILT VocabularyInternalExternalTest_NOT_BUILT)
-endif()

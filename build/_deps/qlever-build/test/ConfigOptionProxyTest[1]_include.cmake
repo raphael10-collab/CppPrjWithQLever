@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigOptionProxyTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ConfigOptionProxyTest[1]_tests.cmake")
-else()
-  add_test(ConfigOptionProxyTest_NOT_BUILT ConfigOptionProxyTest_NOT_BUILT)
-endif()

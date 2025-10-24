@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LimitOffsetClauseTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LimitOffsetClauseTest[1]_tests.cmake")
-else()
-  add_test(LimitOffsetClauseTest_NOT_BUILT LimitOffsetClauseTest_NOT_BUILT)
-endif()

@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AsioHelpersTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/AsioHelpersTest[1]_tests.cmake")
-else()
-  add_test(AsioHelpersTest_NOT_BUILT AsioHelpersTest_NOT_BUILT)
-endif()

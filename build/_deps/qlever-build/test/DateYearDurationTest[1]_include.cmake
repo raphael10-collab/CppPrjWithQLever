@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/DateYearDurationTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/DateYearDurationTest[1]_tests.cmake")
-else()
-  add_test(DateYearDurationTest_NOT_BUILT DateYearDurationTest_NOT_BUILT)
-endif()

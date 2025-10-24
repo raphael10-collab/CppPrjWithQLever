@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GraphStoreProtocolTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/GraphStoreProtocolTest[1]_tests.cmake")
-else()
-  add_test(GraphStoreProtocolTest_NOT_BUILT GraphStoreProtocolTest_NOT_BUILT)
-endif()

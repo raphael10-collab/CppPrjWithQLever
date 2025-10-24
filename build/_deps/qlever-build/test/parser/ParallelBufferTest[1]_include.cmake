@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/ParallelBufferTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/parser/ParallelBufferTest[1]_tests.cmake")
-else()
-  add_test(ParallelBufferTest_NOT_BUILT ParallelBufferTest_NOT_BUILT)
-endif()

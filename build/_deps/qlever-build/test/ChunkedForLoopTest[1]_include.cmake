@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ChunkedForLoopTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ChunkedForLoopTest[1]_tests.cmake")
-else()
-  add_test(ChunkedForLoopTest_NOT_BUILT ChunkedForLoopTest_NOT_BUILT)
-endif()

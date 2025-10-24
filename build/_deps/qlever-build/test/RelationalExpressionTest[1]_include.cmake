@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RelationalExpressionTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/RelationalExpressionTest[1]_tests.cmake")
-else()
-  add_test(RelationalExpressionTest_NOT_BUILT RelationalExpressionTest_NOT_BUILT)
-endif()

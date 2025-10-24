@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CompressorStreamTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CompressorStreamTest[1]_tests.cmake")
-else()
-  add_test(CompressorStreamTest_NOT_BUILT CompressorStreamTest_NOT_BUILT)
-endif()

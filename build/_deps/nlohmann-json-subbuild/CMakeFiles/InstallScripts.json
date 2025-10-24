@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/raphy/CppPrjWithQLever/build/_deps/nlohmann-json-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

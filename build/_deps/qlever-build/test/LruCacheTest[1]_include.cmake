@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LruCacheTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/LruCacheTest[1]_tests.cmake")
-else()
-  add_test(LruCacheTest_NOT_BUILT LruCacheTest_NOT_BUILT)
-endif()

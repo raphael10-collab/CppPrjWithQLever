@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CheckUsePatternTrickTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/CheckUsePatternTrickTest[1]_tests.cmake")
-else()
-  add_test(CheckUsePatternTrickTest_NOT_BUILT CheckUsePatternTrickTest_NOT_BUILT)
-endif()

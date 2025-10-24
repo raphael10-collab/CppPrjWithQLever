@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ExportQueryExecutionTreesTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ExportQueryExecutionTreesTest[1]_tests.cmake")
-else()
-  add_test(ExportQueryExecutionTreesTest_NOT_BUILT ExportQueryExecutionTreesTest_NOT_BUILT)
-endif()

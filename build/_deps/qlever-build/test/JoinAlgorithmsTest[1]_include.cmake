@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JoinAlgorithmsTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/JoinAlgorithmsTest[1]_tests.cmake")
-else()
-  add_test(JoinAlgorithmsTest_NOT_BUILT JoinAlgorithmsTest_NOT_BUILT)
-endif()

@@ -1,5 +1,0 @@
-if(EXISTS "/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ContentEncodingHelperTest[1]_tests.cmake")
-  include("/home/raphy/CppPrjWithQLever/build/_deps/qlever-build/test/ContentEncodingHelperTest[1]_tests.cmake")
-else()
-  add_test(ContentEncodingHelperTest_NOT_BUILT ContentEncodingHelperTest_NOT_BUILT)
-endif()

@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/CppPrjWithQLever.dir/link.d CMakeFiles/CppPrjWithQLever.dir/src/LibQLeverExample.cpp.o CMakeFiles/CppPrjWithQLever.dir/src/Qlever.cpp.o -o CppPrjWithQLever  -lqlever
